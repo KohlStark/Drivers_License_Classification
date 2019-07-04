@@ -2,7 +2,6 @@
 
 
 for i in range(200):
-	print("hey there", i)
 	file = open("Drivers_License_" + str(i+1) + ".txt", "w")
 	file.write("Last Name:\n")
 	file.write("First Name:\n")
